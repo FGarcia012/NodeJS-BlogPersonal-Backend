@@ -1,0 +1,421 @@
+{
+	"info": {
+		"_postman_id": "346b72e9-1fa4-4bc2-9c9d-b13ec2b48517",
+		"name": "Blog-Personal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37658894"
+	},
+	"item": [
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Agregar comentario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"publication\": \"6456b2f1e3b8a2a3c4d5e6f4\",\r\n  \"author\": \"John Doe\",\r\n  \"description\": \"Este es un comentario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/comments/addComment",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"comments",
+								"addComment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar comentario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/comments/getComments",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"comments",
+								"getComments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar comentario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"description\": \"Comentario actualizado\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/comments/updateComment/681aeb11bf28e6e45f69dae9",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"comments",
+								"updateComment",
+								"681aeb11bf28e6e45f69dae9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar comentario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/comments/deleteComment/681aeb11bf28e6e45f69dae9",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"comments",
+								"deleteComment",
+								"681aeb11bf28e6e45f69dae9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Publication",
+			"item": [
+				{
+					"name": "Agregar publicación",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"course\": \"681ae2ce33d62472077eef7e\",\r\n  \"title\": \"Nueva Publicación\",\r\n  \"description\": \"Descripción de la publicación\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/publications/addPublication",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"publications",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Publicaciones",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/publications/getPublications",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"publications",
+								"getPublications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar publicación",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"course\": \"681ae2f9bb8d0230c8e44035\",\r\n  \"title\": \"Título actualizado\",\r\n  \"description\": \"Descripción actualizada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/publications/updatePublication/681ae582d6848ee820241875",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"publications",
+								"updatePublication",
+								"681ae582d6848ee820241875"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar publicación",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/publications/deletePublication/681ae5c2d6848ee820241877",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"publications",
+								"deletePublication",
+								"681ae5c2d6848ee820241877"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course",
+			"item": [
+				{
+					"name": "Agregar curso",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Matematicas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/courses/addCourse",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"courses",
+								"addCourse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar cursos",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/courses/getCourses",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"courses",
+								"getCourses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar curso",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Curso avanzado de Node.js\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/courses/updateCourse/681ae309bb8d0230c8e44039",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"courses",
+								"updateCourse",
+								"681ae309bb8d0230c8e44039"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar curso",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3017/BlogPersonal/v1/courses/deleteCourse/681ae309bb8d0230c8e44039",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3017",
+							"path": [
+								"BlogPersonal",
+								"v1",
+								"courses",
+								"deleteCourse",
+								"681ae309bb8d0230c8e44039"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
