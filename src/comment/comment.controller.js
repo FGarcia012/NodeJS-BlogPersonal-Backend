@@ -24,6 +24,7 @@ export const addComment = async (req, res) => {
 export const getComments = async (req, res) => {
     try {
         const comments = await Comment.find({ status: true })
+            .populate('publication', 'title')
 
         return res.status(200).json({
             success: true,

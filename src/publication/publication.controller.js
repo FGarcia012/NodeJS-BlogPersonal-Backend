@@ -24,17 +24,18 @@ export const addPublication = async (req, res) => {
 export const getPublications = async (req, res) => {
     try {
         const publications = await Publication.find({ status: true })
+            .populate('course', 'name')
 
         return res.status(200).json({
             success: true,
             message: 'Publications fetched successfully',
             publications
-        })
+        });
     } catch (err) {
         return res.status(500).json({
             message: 'Error fetching publications',
             error: err.message
-        })
+        });
     }
 }
 
