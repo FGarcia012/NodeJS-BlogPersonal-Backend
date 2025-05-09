@@ -7,7 +7,6 @@ export const addComment = async (req, res) => {
 
         const comment = await Comment.create(data);
 
-        // Agregar el ID del comentario a la publicación correspondiente
         await Publication.findByIdAndUpdate(data.publication, {
             $push: { comments: comment._id }
         });
