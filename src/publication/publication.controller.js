@@ -24,7 +24,12 @@ export const addPublication = async (req, res) => {
 export const getPublications = async (req, res) => {
     try {
         const publications = await Publication.find({ status: true })
-            .populate('course', 'name')
+            .populate('course', 'name') 
+            .populate({
+                path: 'comments', 
+                match: { status: true }, 
+                select: 'author description date' 
+            });
 
         return res.status(200).json({
             success: true,

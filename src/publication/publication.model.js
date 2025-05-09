@@ -18,6 +18,12 @@ const publicationSchema = Schema({
         type: Date,
         default: Date.now
     },
+    comments: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Comment',
+        }
+    ],
     status: {
         type: Boolean,
         default: true
