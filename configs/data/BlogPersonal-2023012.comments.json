@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "682083ee34ed96a1f9744a2e"
+  },
+  "publication": {
+    "$oid": "681cef7f20cf23f4c2b20d72"
+  },
+  "author": "Alexander",
+  "description": "Es muy cierto eso, pero bueno fue la carrera que quize seguir desde pequeño ;-;",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:03:10.134Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:03:10.136Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:03:10.136Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084107010bdbe848f7ebd"
+  },
+  "publication": {
+    "$oid": "681cef7f20cf23f4c2b20d72"
+  },
+  "author": "Anonymous",
+  "description": "Y pensar que entre a la carrera sin conocer nada...",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:03:44.615Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:03:44.618Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:03:44.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084317010bdbe848f7ec8"
+  },
+  "publication": {
+    "$oid": "681d2bc418500c390e630fe5"
+  },
+  "author": "Jose",
+  "description": "Le falta mucho al front por mejorar ",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:04:17.263Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:04:17.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:04:17.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084517010bdbe848f7ed3"
+  },
+  "publication": {
+    "$oid": "681d2bc418500c390e630fe5"
+  },
+  "author": "García",
+  "description": "Si se puede mejorar con el front",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:04:49.460Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:04:49.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:04:49.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084877010bdbe848f7ee7"
+  },
+  "publication": {
+    "$oid": "681dffa759b782ab566450dd"
+  },
+  "author": "Daniel",
+  "description": "Tecnologia se puede ganar con solo zona, creo que es la mejor clase en la que saque mejor zona en 4.to y 5.to",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:05:43.517Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:05:43.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:05:43.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084c77010bdbe848f7ef2"
+  },
+  "publication": {
+    "$oid": "681dffa759b782ab566450dd"
+  },
+  "author": "Erick",
+  "description": "Por que se llama tecnologia?? y no tecnologia teorica??? si es todo lo teorico que se aprende de la carrera.",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:06:47.076Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:06:47.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:06:47.077Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682084f87010bdbe848f7efd"
+  },
+  "publication": {
+    "$oid": "681dffd259b782ab566450e6"
+  },
+  "author": "Joshep",
+  "description": "Los mapas mentales son faciles!!!",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:07:36.729Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:07:36.729Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:07:36.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682085097010bdbe848f7f03"
+  },
+  "publication": {
+    "$oid": "681dffd259b782ab566450e6"
+  },
+  "author": "Jose",
+  "description": "Si los mapas mentales son muy faciles de crear!!!",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:07:53.228Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:07:53.228Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:07:53.228Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682085507010bdbe848f7f12"
+  },
+  "publication": {
+    "$oid": "681dffb659b782ab566450e0"
+  },
+  "author": "Sicajau",
+  "description": "Bueno ya comprendi como hacer el front de una API, ahora toca aprender las buenas practicas de desarrollo, no deberia de costar...",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:09:04.967Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:09:04.967Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:09:04.967Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682085817010bdbe848f7f18"
+  },
+  "publication": {
+    "$oid": "681dffb659b782ab566450e0"
+  },
+  "author": "Alexander",
+  "description": "El blog personal de Perez fue el mejor que he visto hasta el momento y el unico JAJA",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:09:53.616Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:09:53.617Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:09:53.617Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682085a37010bdbe848f7f23"
+  },
+  "publication": {
+    "$oid": "681dffc159b782ab566450e3"
+  },
+  "author": "Anonymous",
+  "description": "Si, ese PMA se merece un 25/25",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:10:27.770Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:10:27.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:10:27.770Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682085b37010bdbe848f7f29"
+  },
+  "publication": {
+    "$oid": "681dffc159b782ab566450e3"
+  },
+  "author": "Anonymous",
+  "description": "Apoyo eso :)",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T11:10:43.054Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T11:10:43.054Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:10:43.054Z"
+  }
+}]

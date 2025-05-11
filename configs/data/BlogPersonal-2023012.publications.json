@@ -1,0 +1,210 @@
+[{
+  "_id": {
+    "$oid": "681cef7f20cf23f4c2b20d72"
+  },
+  "course": {
+    "$oid": "681ae2ce3d62472077eef7be"
+  },
+  "title": "Taller es dificil??",
+  "description": "Se puede llegar a complicar, pero con el tiempo puedes llegar comprender que no lo es tanto.",
+  "status": true,
+  "date": {
+    "$date": "2024-05-08T17:53:03.093Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T17:53:03.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:03:44.625Z"
+  },
+  "comments": [
+    {
+      "$oid": "681d9e2942be99421f198751"
+    },
+    {
+      "$oid": "681d9e2b42be99421f198757"
+    },
+    {
+      "$oid": "681d9f4c42be99421f19877d"
+    },
+    {
+      "$oid": "681d9f4e42be99421f198783"
+    },
+    {
+      "$oid": "681d9f5142be99421f198789"
+    },
+    {
+      "$oid": "681d9f5342be99421f19878f"
+    },
+    {
+      "$oid": "681da08714a4ae03459b6eeb"
+    },
+    {
+      "$oid": "681dff55d1c402306ca812c1"
+    },
+    {
+      "$oid": "6820633c48cbbb4bf103d871"
+    },
+    {
+      "$oid": "6820634a6e9d6737dfeb3de1"
+    },
+    {
+      "$oid": "682083ee34ed96a1f9744a2e"
+    },
+    {
+      "$oid": "682084107010bdbe848f7ebd"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681d2bc418500c390e630fe5"
+  },
+  "course": {
+    "$oid": "681ae2ce3d62472077eef7be"
+  },
+  "title": "Taller una maravilla",
+  "description": "Lo que mas me cuesta de programar, es hacer que visualmente todo se mire bien para el cliente, ya que aveces tengo una idea de como quiero que se mire y luego se me olvida y no me queda como lo planeado",
+  "status": true,
+  "date": {
+    "$date": "2024-05-08T22:10:12.013Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T22:10:12.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:04:49.462Z"
+  },
+  "comments": [
+    {
+      "$oid": "681da0f514a4ae03459b6f09"
+    },
+    {
+      "$oid": "681da0fa14a4ae03459b6f0f"
+    },
+    {
+      "$oid": "682084317010bdbe848f7ec8"
+    },
+    {
+      "$oid": "682084517010bdbe848f7ed3"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681dffa759b782ab566450dd"
+  },
+  "course": {
+    "$oid": "681ae2f9bb8d0230c8e44035"
+  },
+  "title": "Tecnologia es Facil o dificil??",
+  "description": "Tecnologia es toda la parte teorica de taller, las tareas pueden ser faciles, pero los examenes es todo lo que se ha visto en taller conforme se avanza asi que se puede complicar",
+  "comments": [
+    {
+      "$oid": "6820685630b1da25de209c57"
+    },
+    {
+      "$oid": "682084877010bdbe848f7ee7"
+    },
+    {
+      "$oid": "682084c77010bdbe848f7ef2"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-09T13:14:15.035Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T13:14:15.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:06:47.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681dffb659b782ab566450e0"
+  },
+  "course": {
+    "$oid": "681ae302bb8d0230c8e44037"
+  },
+  "title": "Blog personal",
+  "description": "Me costo comprender un poco react, pero creo que ya le he entendido mucho mas a esto",
+  "comments": [
+    {
+      "$oid": "682085507010bdbe848f7f12"
+    },
+    {
+      "$oid": "682085817010bdbe848f7f18"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2024-05-09T13:14:30.971Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T13:14:30.971Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:09:53.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681dffc159b782ab566450e3"
+  },
+  "course": {
+    "$oid": "681ae302bb8d0230c8e44037"
+  },
+  "title": "PMA de la almacenadora",
+  "description": "Espero que con mi nuevo equipo que hemos armado el puntaje del pma sea mucho mayor al que sacamos en la almacenadora ya que pienso que lo hemos hecho muy bien, acomparacion del resto de los grupos, pero eso lo decide el profesor...",
+  "comments": [
+    {
+      "$oid": "682085a37010bdbe848f7f23"
+    },
+    {
+      "$oid": "682085b37010bdbe848f7f29"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-09T13:14:41.791Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T13:14:41.791Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:10:43.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681dffd259b782ab566450e6"
+  },
+  "course": {
+    "$oid": "681ae2f9bb8d0230c8e44035"
+  },
+  "title": "Mapa mental de tecnologia",
+  "description": "Que mapa mental mas facil de hacer",
+  "comments": [
+    {
+      "$oid": "681e0e821d62e2eec7dd7fdb"
+    },
+    {
+      "$oid": "682084f87010bdbe848f7efd"
+    },
+    {
+      "$oid": "682085097010bdbe848f7f03"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-09T13:14:58.243Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T13:14:58.243Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T11:07:53.229Z"
+  }
+}]

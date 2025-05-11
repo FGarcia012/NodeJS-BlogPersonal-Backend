@@ -156,7 +156,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"course\": \"681ae2ce33d62472077eef7e\",\r\n  \"title\": \"Nueva Publicación\",\r\n  \"description\": \"Descripción de la publicación\"\r\n}",
+							"raw": "{\r\n  \"course\": \"681ae2f9bb8d0230c8e44035\",\r\n  \"title\": \"Mapa mental de tecnologia\",\r\n  \"description\": \"Descripción de la publicación\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

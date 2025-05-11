@@ -1,5 +1,11 @@
 import { Router } from "express";
-import { addPublication, getPublications, updatePublication, deletePublication } from "./publication.controller.js";
+import { 
+    addPublication, 
+    getPublications, 
+    updatePublication, 
+    deletePublication,
+    getPublicationsByDateRange 
+} from "./publication.controller.js";
 import { addPublicationValidator, updatePublicationValidator, deletePublicationValidator } from "../middlewares/publication-validators.js";
 
 const router = Router();
@@ -111,5 +117,34 @@ router.put('/updatePublication/:pid', updatePublicationValidator, updatePublicat
  *         description: Internal server error
  */
 router.delete('/deletePublication/:pid', deletePublicationValidator, deletePublication);
+
+/**
+ * @swagger
+ * /publications/getByDateRange:
+ *   get:
+ *     summary: Get publications by date range
+ *     tags: [Publications]
+ *     parameters:
+ *       - in: query
+ *         name: startDate
+ *         required: true
+ *         schema:
+ *           type: string
+ *           format: date
+ *         description: Start date (YYYY-MM-DD)
+ *       - in: query
+ *         name: endDate
+ *         required: true
+ *         schema:
+ *           type: string
+ *           format: date
+ *         description: End date (YYYY-MM-DD)
+ *     responses:
+ *       200:
+ *         description: Publications filtered successfully
+ *       500:
+ *         description: Internal server error
+ */
+router.get('/getByDateRange', getPublicationsByDateRange);
 
 export default router;

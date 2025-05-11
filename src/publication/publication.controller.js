@@ -44,6 +44,37 @@ export const getPublications = async (req, res) => {
     }
 }
 
+export const getPublicationsByDateRange = async (req, res) => {
+    try {
+        const { startDate, endDate } = req.query;
+
+        const publications = await Publication.find({
+            date: {
+                $gte: new Date(startDate),
+                $lte: new Date(endDate)
+            },
+            status: true
+        })
+        .populate('course', 'name')
+        .populate({
+            path: 'comments',
+            match: { status: true },
+            select: 'author description date'
+        });
+
+        return res.status(200).json({
+            success: true,
+            message: 'Publications filtered by date range successfully',
+            publications
+        });
+    } catch (err) {
+        return res.status(500).json({
+            message: 'Error filtering publications by date range',
+            error: err.message
+        });
+    }
+};
+
 export const updatePublication = async (req, res) => {
     try {
         const { pid } = req.params
